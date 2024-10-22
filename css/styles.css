@@ -1,0 +1,416 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%; /* Це забезпечує адаптивність зображення */
+    height: auto; /* Зберігає пропорції зображення */
+    margin: 0 auto; /* Вирівнює зображення по центру, якщо потрібно */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1158px) {
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+}
+.header-style {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-text {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase; /* великі букви */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.menu-span-text {
+    color: #2E2F42;
+}
+
+@media (min-width:768px) {
+    .header-logo-text {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 120px;
+    }
+}
+
+@media (min-width: 1158px) {
+    .header-logo-text {
+        margin-right: 76px;
+        }
+}
+
+.header-buttum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+.ul-header,
+.ul-adress-style {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .header-buttum {
+        display: none;
+    }
+    .header-nav-style {
+        display: flex;
+
+    }
+    .ul-header {
+        display: flex;
+        gap: 40px;
+    }
+    .nav-li-text-style {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        align-items: center;
+    }
+    
+    .nav-li-text-style:hover,
+    .nav-li-text-style:focus {
+        color: #404BBF;
+    }
+    
+    .li-dekor {
+        position: relative;
+        color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .li-dekor::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+    }
+
+    .address-style {
+        display: flex;
+        align-items: center;
+    }
+
+    .ul-adress-style {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+
+    .info-style {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+        color: #434455;
+        font-style: normal; /* Прибираємо курсив */
+    }
+    .info-style:hover,
+    .info-style:focus {
+        color: #404bbf;
+    }
+
+}
+
+@media (min-width: 1158px) {
+    .ul-adress-style {
+        gap: 40px;
+    }
+    .info-style {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        }
+}
+
+.section-one-style {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+    background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/Dark1.jpg');  
+    background-size: cover;
+    /* Зображення покриває весь контейнер */
+    background-position: center;
+    /* Центрує зображення в контейнері */
+    background-repeat: no-repeat;
+    /* Зображення не повторюється */
+}
+
+.container-section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 72px;
+}
+
+@media (min-width: 768px) {
+    .section-one-style {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+    .container-section-one {
+        gap: 36px;
+    }
+
+}
+
+@media (min-width: 1158px) {
+    .section-one-style {
+        width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .container-section-one {
+        gap: 48px;
+    }
+    
+}
+.section-one-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 216px;
+}
+
+@media (min-width: 768px) {
+    .section-one-text {
+        font-size: 56px;
+        line-height: 107%;
+        width: 496px;
+    }
+}
+
+.section-one-button {
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    border-style: none;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-one-button:hover,
+.section-one-button:focus {
+    background-color: #404BBF;
+}
+
+.section-two-style {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+.container-section-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul-two-section {
+    display: flex;
+    gap: 72px;
+    margin: 0;
+}
+.li-two-style {
+    width: 280px;
+    height: 120px;
+}
+.section-two-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    padding-bottom: 8px;
+}
+.section-two-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.div-icons {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@media (min-width: 1158px) {
+    .div-icons {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Для екранів до 767px з 2x щільністю */
+@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+(max-width: 767px) and (min-resolution: 192dpi) {
+    .section-one-style {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark2.jpg');
+    }
+}
+
+/* --- Для екранів від 768px до 1157px --- */
+
+/* Для екранів від 768px до 1157px з 1x щільністю */
+@media (min-width: 768px) and (max-width: 1157px) {
+    .section-one-style {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7681.jpg');
+    }
+}
+
+/* Для екранів від 768px до 1157px з 2x щільністю */
+@media (min-width: 768px) and (max-width: 1157px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 768px) and (max-width: 1157px) and (min-resolution: 192dpi) {
+    .section-one-style {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7682.jpg');
+    }
+}
+
+/* --- Для екранів від 1158px і більше --- */
+
+/* Для екранів від 1158px з 1x щільністю */
+@media (min-width: 1158px) {
+    .section-one-style {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people1.jpg');
+    }
+}
+
+/* Для екранів від 1158px з 2x щільністю */
+@media (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2),
+(min-width: 1158px) and (min-resolution: 192dpi) {
+    .section-one-style {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people2.jpg');
+    }
+}
+
+
+
+
+
