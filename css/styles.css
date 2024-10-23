@@ -639,6 +639,26 @@ ul {
     justify-content: center;
     gap: 72px;
 }
+@media (min-width: 768px) {
+    .container-footer-style {
+        justify-content: flex-start;
+        gap: 0;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+}
+@media (min-width: 1158px) {
+    .container-footer-style {
+        column-gap: 0;
+    }
+    .social-m {
+        margin-right: 80px;
+    }
+    .style-logo-footer {
+        margin-right: 120px;
+    }
+}
+
 .style-logo-footer {
     display: flex;
     align-items: center;
@@ -673,6 +693,15 @@ ul {
     .footer-text {
         width: 264px;
     }
+}
+.style-footer-paragraf {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
 }
 .ul-footer-social {
     display: flex;
