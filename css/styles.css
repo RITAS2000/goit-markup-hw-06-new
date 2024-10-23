@@ -675,6 +675,10 @@ ul {
         width: 264px;
     }
 }
+.social-m {
+    display: flex;
+    align-items: center;
+}
 .style-footer-paragraf {
     font-weight: 500;
     font-size: 16px;
