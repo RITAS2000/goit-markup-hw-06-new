@@ -623,8 +623,6 @@ ul {
 }
 
 .footer-style {
-    display: flex; 
-    justify-content: center;
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #2E2F42;
@@ -788,6 +786,10 @@ ul {
 }
 
 @media (min-width: 768px) {
+    .footer-style {
+        padding-left: 94px;
+    }
+
     .container-footer-style {
         gap: 0;
         column-gap: 24px;
@@ -814,6 +816,10 @@ ul {
 }
 
 @media (min-width: 1158px) {
+
+    .footer-style {
+            padding-left: 0;
+        }
     .container-footer-style {
         column-gap: 0;
     }
