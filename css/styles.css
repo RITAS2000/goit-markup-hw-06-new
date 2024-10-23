@@ -285,6 +285,14 @@ ul {
     padding-bottom: 96px;
 
 }
+
+@media (min-width: 1158px) {
+    .section-two-style {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+}
 .ul-two-section {
     display: flex;
     flex-wrap: wrap;
@@ -299,10 +307,6 @@ ul {
         }
 }
 
-.li-two-style {
-    width: 280px;
-    height: 120px;
-}
 .section-two-title {
     font-weight: 700;
     font-size: 36px;
@@ -312,12 +316,31 @@ ul {
     color: #2E2F42;
     margin-bottom: 8px;
 }
+@media (min-width: 768px) {
+    .section-two-title {
+            text-align: start;
+        }
+    .li-two-style {
+        width: calc((100% - 24px) / 2);
+         }
+}
+
+
 .section-two-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+@media (min-width: 1158px) {
+    .section-two-text {
+        font-weight: 400;
+    }
+    .li-two-style {
+        width: calc((100% - 72px) / 4);
+    }
+        
 }
 
 .div-icons {
