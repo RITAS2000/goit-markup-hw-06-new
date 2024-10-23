@@ -1228,6 +1228,12 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     fill: #FFFFFF;
 }
 
+@media (min-width: 786px) {
+    .menu-overlay {
+        display: none;
+    }
+}
+
 
 
 
