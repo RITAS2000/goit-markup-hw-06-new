@@ -636,7 +636,6 @@ ul {
 .container-footer-style {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 72px;
 }
 @media (min-width: 768px) {
@@ -782,9 +781,6 @@ ul {
     padding-left: 18px;
 }
 @media (min-width: 768px) {
-    .container-forma-footer {
-        justify-content: flex-start;
-    }
     .input-footer-email {
        width: 264px;
     }
