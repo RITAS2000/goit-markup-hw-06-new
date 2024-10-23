@@ -1267,14 +1267,12 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 
 
 
-/* Для екранів від 768px до 1157px з 1x щільністю */
 @media (min-width: 768px) and (max-width: 1157px) {
     .section-one-style {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Dark7681.jpg');
     }
 }
 
-/* Для екранів від 768px до 1157px з 2x щільністю */
 @media (min-width: 768px) and (max-width: 1157px) and (-webkit-min-device-pixel-ratio: 2),
 (min-width: 768px) and (max-width: 1157px) and (min-resolution: 192dpi) {
     .section-one-style {
