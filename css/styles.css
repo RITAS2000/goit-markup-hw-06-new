@@ -334,6 +334,11 @@ ul {
     color: #434455;
 }
 @media (min-width: 1158px) {
+    .section-two-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+    }
     .section-two-text {
         font-weight: 400;
     }
