@@ -1134,7 +1134,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     cursor: pointer;
 }
 .div-style {
-    height: 640px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1148,10 +1148,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    list-style-type: none;
-    /* уберает точки */
-    margin: 0;
-    padding: 0;
+
 }
 
 .menu-navigaciya-text {
@@ -1180,10 +1177,6 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 }
 
 .menu-ul-address {
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none;
-    /* уберает точки */
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1210,7 +1203,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     align-items: center;
     align-content: flex-start;
     gap: 40px;
-    padding-left: 16px;
+    margin-bottom: 40px;
 }
 
 .menu-li-icons {
