@@ -1107,7 +1107,9 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     opacity: 1;
     pointer-events: auto;
 }
-
+.menu-overlay .container {
+    position: relative;
+}
 .menu-button-cloce {
     position: absolute;
     /* позіціонує відносно батьківського елемента або вікна браузера */
