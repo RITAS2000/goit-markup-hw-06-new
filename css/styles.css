@@ -285,14 +285,9 @@ ul {
     padding-bottom: 96px;
 
 }
-.container-section-two {
-    display: flex;
-    flex-wrap: wrap;
-}
 .ul-two-section {
     display: flex;
-    gap: 72px;
-    margin: 0;
+    flex-wrap: wrap;
 }
 .li-two-style {
     width: 280px;
@@ -305,7 +300,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .section-two-text {
     font-weight: 500;
@@ -337,6 +332,7 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 
 @media (min-width: 1158px) {
     .div-icons {
