@@ -403,14 +403,12 @@ ul {
 .ul-section-three {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 72px;
 }
 
 @media (min-width: 768px) {
     .ul-section-three {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             gap: 0;
             column-gap: 24px;
             row-gap: 64px;
@@ -420,6 +418,7 @@ ul {
 .section-three-li {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    min-width: 264px;
 }
 
 @media (min-width: 768px) {
