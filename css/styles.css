@@ -1132,7 +1132,8 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
 }
 
 .menu-navigaciya {
-    margin-bottom: auto;
+    margin-top: 72px;
+    margin-bottom: 168px;
 }
 
 .menu-ul-navigaciya {
@@ -1167,10 +1168,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     flex-direction: column;
     align-content: flex-start;
     gap: 48px;
-    padding-left: 16px;
-
-
-
+    margin-bottom: 48px;
 }
 
 .menu-ul-address {
