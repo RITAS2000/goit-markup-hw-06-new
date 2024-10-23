@@ -646,6 +646,23 @@ ul {
         column-gap: 24px;
         row-gap: 72px;
     }
+    .style-logo-footer {
+        align-items: flex-start;
+    }
+    
+    .style-footer-paragraf {
+            text-align: left;
+    }
+    
+    .style-footer-subscribe {
+        text-align: left;
+        margin-bottom: 16px;
+        }
+    
+    .style-footer-form {
+        flex-direction: row;
+        gap: 24px;
+        }
 }
 @media (min-width: 1158px) {
     .container-footer-style {
