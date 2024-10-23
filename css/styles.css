@@ -1132,8 +1132,10 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     cursor: pointer;
 }
 .div-style {
+    height: 640px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .menu-navigaciya {
     margin-top: 72px;
