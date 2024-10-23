@@ -641,7 +641,6 @@ ul {
 }
 @media (min-width: 768px) {
     .container-footer-style {
-        justify-content: flex-start;
         gap: 0;
         column-gap: 24px;
         row-gap: 72px;
@@ -783,6 +782,9 @@ ul {
     padding-left: 18px;
 }
 @media (min-width: 768px) {
+    .container-forma-footer {
+        justify-content: flex-start;
+    }
     .input-footer-email {
        width: 264px;
     }
