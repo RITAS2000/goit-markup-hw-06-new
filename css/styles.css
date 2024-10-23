@@ -784,11 +784,15 @@ ul {
 .style-footer-but:focus {
     background-color: #404BBF;
 }
-
-@media (min-width: 768px) {
-    .footer-style {
+@media (min-width: 768px) and (max-width: 1157px) {
+    footer .container {
         padding-left: 108px;
     }
+}
+
+
+@media (min-width: 768px) {
+    
 
     .container-footer-style {
         gap: 0;
