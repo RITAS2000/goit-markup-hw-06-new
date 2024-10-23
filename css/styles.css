@@ -1265,7 +1265,7 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     }
 }
 
-/* --- Для екранів від 768px до 1157px --- */
+
 
 /* Для екранів від 768px до 1157px з 1x щільністю */
 @media (min-width: 768px) and (max-width: 1157px) {
