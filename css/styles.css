@@ -1131,10 +1131,13 @@ input[type="checkbox"]:checked+label .form-chek-box-span {
     padding: 0;
     cursor: pointer;
 }
-
+.div-style {
+    display: flex;
+    justify-content: space-around;
+}
 .menu-navigaciya {
     margin-top: 72px;
-    margin-bottom: 168px;
+    
 }
 
 .menu-ul-navigaciya {
