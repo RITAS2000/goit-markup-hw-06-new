@@ -288,7 +288,17 @@ ul {
 .ul-two-section {
     display: flex;
     flex-wrap: wrap;
+    gap: 72px;
 }
+
+@media (min-width: 768px) {
+    .ul-two-section {
+        gap: 0;
+        column-gap: 24px;
+        row-gap: 72px;
+        }
+}
+
 .li-two-style {
     width: 280px;
     height: 120px;
