@@ -623,6 +623,8 @@ ul {
 }
 
 .footer-style {
+    display: flex; 
+    justify-content: center;
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #2E2F42;
